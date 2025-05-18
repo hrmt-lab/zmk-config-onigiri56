@@ -33,7 +33,7 @@
         layer_1 {
             bindings = <
                 &trans     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5            &kp F6    &kp F7    &kp RBKT    &kp BSLH    &kp LS(INT_YEN)    &trans
-                &trans     &trans        &kp LS(N5)    &kp trans     &kp trans     &kp T             &trans    &trans    &kp UP      &trans      &trans             &trans
+                &trans     &trans        &kp LS(N5)    &trans        &trans     &kp T                &trans    &trans    &kp UP      &trans      &trans             &trans
                 &trans     &kp LS(N6)    &kp LS(N3)    &kp LS(N4)    &kp LS(N7)    &kp LS(N2)        &kp HOME  &kp LEFT  &kp DOWN    &kp RIGHT   &kp APOSTROPHE     &trans
                 &trans     &trans        &trans        &trans        &trans        &kp LS(N1)        &kp END   &trans    &trans      &trans      &trans             &trans
                     &kp INT_HENKAN    &kp LGUI    &mt LALT INT_MUHENKAN    &lt 3 SPACE               &none     &none     &none       &none
@@ -43,7 +43,7 @@
         layer_2 {
             bindings = <
                 &bt BT_SEL 0        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5            &none    &kp N7    &kp N8    &kp N9    &kp KP_MINUS    &kp INT_YEN
-                &bt BT_SEL 1        &trans        &kp LS(N5)    &kp trans     &kp trans     &kp T             &none    &kp N4    &kp N5    &kp N6    &kp KP_PLUS     &none
+                &bt BT_SEL 1        &trans        &kp LS(N5)    &trans        &trans        &kp T             &none    &kp N4    &kp N5    &kp N6    &kp KP_PLUS     &none
                 &bt BT_CLR          &kp LS(N6)    &kp LS(N3)    &kp LS(N4)    &kp LS(N7)    &kp LS(N2)        &none    &kp N1    &kp N2    &kp N3    &kp KP_ASTERISK &kp ENTER
                 &bt BT_CLR_ALL      &trans        &trans        &trans        &trans        &kp LS(N1)        &none    &kp N0    &trans    &trans    &trans          &kp RSHFT
                     &kp INT_HENKAN    &kp LGUI    &mt LALT INT_MUHENKAN    &lt 3 SPACE               &none    &none     &kp PG_UP    &kp PG_DN
