@@ -1,0 +1,4 @@
+name: onigiri56
+build:
+  settings:
+    board_root: config
