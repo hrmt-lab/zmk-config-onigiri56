@@ -1,6 +1,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: onigiri56_left
+    snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
     shield: onigiri56_right
   - board: seeeduino_xiao_ble
