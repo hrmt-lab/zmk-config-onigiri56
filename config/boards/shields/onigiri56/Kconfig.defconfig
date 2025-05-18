@@ -1,0 +1,15 @@
+if SHIELD_ONIGIRI56_LEFT
+config ZMK_KEYBOARD_NAME
+    default "onigiri56"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+if SHIELD_ONIGIRI56_LEFT || SHIELD_ONIGIRI56_RIGHT
+config NFCT_PINS_AS_GPIOS
+    default y
+
+config ZMK_SPLIT
+    default y
+endif

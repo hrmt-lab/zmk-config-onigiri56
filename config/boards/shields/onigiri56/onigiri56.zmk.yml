@@ -1,0 +1,12 @@
+file_format: "1"
+id: onigiri56
+name: onigiri56
+type: shield
+url: https://github.com/hrmt-lab/zmk-config-onigiri56
+requires: [seeeduino_xiao_ble]
+
+features:
+  - keys
+siblings:
+  - onigiri56_left
+  - onigiri56_right
