@@ -44,8 +44,6 @@
         };
     };
 
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -86,3 +84,4 @@
             >;  
         };  
     };
+};
